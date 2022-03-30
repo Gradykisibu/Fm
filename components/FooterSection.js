@@ -3,15 +3,18 @@ import { Footer, Paragraph } from "../styles/style-utils";
 import SocialMediaLinksGroup from "./SocialMediaLinksGroup";
 import { ThemeContext } from "../state/ThemeProvider";
 import { useMediaQuery } from "@material-ui/core";
+import { useRouter } from "next/router";
+
 
 const FooterSection = () => {
+  const router = useRouter();
   const { theme } = useContext(ThemeContext);
   const [darkMode, ] = useState(Boolean(theme == "dark"));
   const maxWidth900px = useMediaQuery("(max-width:900px)");
 
   return (
     <>
-      <Footer>
+      <Footer hide = {(router.pathname === "/chat")}>
         <div
           className="row"
           style={{

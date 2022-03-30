@@ -16,7 +16,10 @@ const about = () => {
   }, []);
 
   return (
-    <section>
+    <section style = {{
+        width:'100%',
+        overflow:'hidden'
+    }}>
       <SectionHeader theme={theme} txt = {"The Active FM story"} />
 
       <div className="row">
@@ -25,9 +28,9 @@ const about = () => {
               width: "100%",
               height: 350,
               minHeight: 400,
-              background: "#000",
+              background: "#03312d",
             }}
-            autoPlay
+            // autoPlay
             >
             <source src="promo.mp4" type="video/mp4" />
             <source src="promo.ogg" type="video/ogg" />

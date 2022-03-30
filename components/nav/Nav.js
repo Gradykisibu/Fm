@@ -211,6 +211,20 @@ export const LeftWideScreenNavSection = ({ theme }) => {
           </a>
         </Link>
 
+
+        <Link href="/chat">
+          <a>
+            <Button
+              style={{
+                fontWeight: 700,
+                minWidth: 120,
+              }}
+            >
+              <Anchor theme={theme}>Community Chat</Anchor>
+            </Button>
+          </a>
+        </Link>
+
         <Link href="/about">
           <a>
             <Button
@@ -303,6 +317,19 @@ export function SwipeableMenuDrawer({ toggleDrawer, openMenuModal }) {
                         <SlowMotionVideoIcon style={{ color: "#fff" }} />
                       </ListItemIcon>
                       <ListItemText primary="Live" />
+                    </ListItemButton>
+                  </ListItem>
+                </a>
+              </Link>
+
+              <Link href="/chat">
+                <a>
+                  <ListItem>
+                    <ListItemButton style = {{padding : '5px 10px'}}>
+                      <ListItemIcon>
+                        <SlowMotionVideoIcon style={{ color: "#fff" }} />
+                      </ListItemIcon>
+                      <ListItemText primary="Community Chat" />
                     </ListItemButton>
                   </ListItem>
                 </a>

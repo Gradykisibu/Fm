@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { useRouter } from "next/router";
 import Meta from "./Meta";
 import Nav from "./nav/Nav";
 import FooterSection from "./FooterSection";
@@ -19,6 +20,8 @@ const MainWrapper = styled.div`
 const MainWrapperLeftGrid = styled.div`
   height: 100%;
   flex: 2;
+  // display: flex;
+  flex-direction: column;
   overflow: auto;
   position: relative;
   padding: ${(smallScreen) =>
@@ -50,6 +53,7 @@ const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
   const maxWidth900px = useMediaQuery("(max-width:900px)");
   const maxWidth670px = useMediaQuery("(max-width:670px)");
+  const router = useRouter();
 
   return (
     <>
@@ -62,6 +66,7 @@ const Layout = ({ children }) => {
             <div
               style={{
                 position: "relative",
+                height: router.pathname === "/chat" ? "100%" : "auto",
                 zIndex: 1,
               }}
             >
@@ -82,7 +87,7 @@ const Layout = ({ children }) => {
                   padding: 0,
                 }}
                 frameBorder="0"
-                title = "iono player"
+                title="iono player"
               />
             </MainWrapperRightGrid>
           )}
@@ -163,7 +168,7 @@ const IonoSmallScreenPlayer = () => {
           padding: 0,
         }}
         frameBorder="0"
-        title = "iono player"
+        title="iono player"
       />
     </IonoSmallScreenPlayerWrapper>
   );
