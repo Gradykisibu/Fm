@@ -31,7 +31,7 @@ const chat = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}
-          src="https://active-fm-chat.vercel.app/"
+          src="https://master.d4qiiy6oasiod.amplifyapp.com/"
           title="Community chat portal"
           frameBorder="0"
           allowFullscreen
