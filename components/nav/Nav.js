@@ -25,6 +25,8 @@ import { useMediaQuery, Button } from "@material-ui/core";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 
+import ForumOutlinedIcon from '@mui/icons-material/ForumOutlined';
+
 const Navigation = styled.nav`
   height: 60px;
   width: 100%;
@@ -217,7 +219,7 @@ export const LeftWideScreenNavSection = ({ theme }) => {
             <Button
               style={{
                 fontWeight: 700,
-                minWidth: 120,
+                minWidth: 150
               }}
             >
               <Anchor theme={theme}>Community Chat</Anchor>
@@ -327,7 +329,7 @@ export function SwipeableMenuDrawer({ toggleDrawer, openMenuModal }) {
                   <ListItem>
                     <ListItemButton style = {{padding : '5px 10px'}}>
                       <ListItemIcon>
-                        <SlowMotionVideoIcon style={{ color: "#fff" }} />
+                        <ForumOutlinedIcon style={{ color: "#fff" }} />
                       </ListItemIcon>
                       <ListItemText primary="Community Chat" />
                     </ListItemButton>
