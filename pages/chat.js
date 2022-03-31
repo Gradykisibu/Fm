@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import styled from "styled-components";
 import { scrollTop } from "../utils/index";
+import { useMediaQuery } from "@material-ui/core";
 
 const LivePageContainer = styled.div`
   height: 100%;
@@ -12,16 +13,20 @@ const IframeWrapper = styled.div`
   background: #000;
   height: 100%;
   width: 100%;
+  padding-bottom: ${(props) =>
+    props.sm ? "205px !important" : "0 !important"};
 `;
 
 const chat = () => {
+  const maxWidth900px = useMediaQuery("(max-width:900px)");
+  console.log(maxWidth900px);
   useEffect(() => {
     scrollTop();
   }, []);
 
   return (
     <LivePageContainer>
-      <IframeWrapper>
+      <IframeWrapper sm={maxWidth900px}>
         <iframe
           style={{
             height: "100%",
@@ -34,7 +39,7 @@ const chat = () => {
           src="https://master.d4qiiy6oasiod.amplifyapp.com/"
           title="Community chat portal"
           frameBorder="0"
-          allowFullscreen
+          allowFullScreen
         />
       </IframeWrapper>
     </LivePageContainer>
