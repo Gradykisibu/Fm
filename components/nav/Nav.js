@@ -143,6 +143,7 @@ const Nav = () => {
 };
 
 export const LeftWideScreenNavSection = ({ theme }) => {
+  console.log("Updated Version")
   return (
     <>
       <NavSection alignment="flex-start">
