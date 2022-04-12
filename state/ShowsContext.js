@@ -16,8 +16,8 @@ export const ShowsProvider = ({children}) => {
          fetch('./shows.json')
          .then(( res ) => res.json())
          .then(( data ) => {
-                 const talkShows = data.filter((show)=> show.category == "afternoon-shows");
-                 const afternoonShows = data.filter((show)=> show.category == "talk-shows")
+                 const talkShows = data.filter((show)=> show.category == "talk-shows");
+                 const afternoonShows = data.filter((show)=> show.category == "afternoon-shows")
                  const eveningShows = data.filter((show)=> show.category == "evening-shows")
                  const morningShows = data.filter((show)=> show.category == "morning-shows")
                  const musicShows = data.filter((show)=> show.category == "music-shows")
