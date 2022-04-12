@@ -34,43 +34,32 @@ const live = () => {
     <LivePageContainer>
       <IframeWrapper>
         {isLiveDay && isOnePM ? (
-        <iframe
-          style={{
-            height: "100%",
-            width: "100%",
-            background: "url(./icons/logo.png)",
-            backgroundSize: 120,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
-          scrolling="no"
-          id="hearthis_at_track_6554137"
-          width="100%"
-          height="150"
-          src={liveIframe}
-          frameBorder="0"
-          allow="autoplay"
-        >
-          <p>
-            Listen to{" "}
-            <a href="ACTIVE FM" target="_blank">
-              no name
-            </a>{" "}
-            <span>by</span>
-            <a href="ACTIVE FM" target="_blank">
-              ACTIVE FM
-            </a>{" "}
-            <span>on</span>{" "}
-            <a
-              href="Listen to DJ Sets, Mixes, Tracks and Sounds |  hearthis.at"
-              target="_blank"
-            >
-              hearthis.at
-            </a>
-          </p>
-        </iframe>
-        )
-        : (
+          <iframe
+            scrolling="no"
+            id="hearthis_at_track_6677554"
+            width="100%"
+            height="150"
+            src="https://app.hearthis.at/activefm/live/embed/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=0&autoplay=0&css="
+            frameBorder="0"
+            allowTransparency
+            allow="autoplay"
+          >
+            <p>
+              Listen to{" "}
+              <a href="https://hearthis.at/activefm/live/" target="_blank">
+                ACTIVE FM LIVE
+              </a>{" "}
+              <span>by</span>
+              <a href="https://hearthis.at/activefm/" target="_blank">
+                ACTIVE FM
+              </a>{" "}
+              <span>on</span>{" "}
+              <a href="https://hearthis.at/" target="_blank">
+                hearthis.at
+              </a>
+            </p>
+          </iframe>
+        ) : (
           <iframe
             style={{
               height: "100%",
@@ -84,10 +73,9 @@ const live = () => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen
+            allowFullScreen
           />
-        )}   
-     
+        )}
       </IframeWrapper>
     </LivePageContainer>
   );
