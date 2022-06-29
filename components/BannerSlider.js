@@ -19,21 +19,12 @@ export const BannerSlider = () => {
         showIndicators={false}
         stopOnHover={false}
       >
-        <div
-          style={{width: "100%"}}
-        >
-          <img
-            src={{
-              width: "100%",
-              objectFit: "cover",
-              objectPosition: "center",
-            }}
-            src="./img/Banner 1.png"
-            alt="active fm banner image"
-          />
-        </div>
 
-        <div
+        <video width="100%" height="500px" muted autoPlay loop >
+              <source src="New AFM Website Banner (video-converter.com).mp4" type="video/mp4"/>
+        </video>
+        
+        {/* <div
           style={{width: "100%"}}
         >
           <img
@@ -45,9 +36,9 @@ export const BannerSlider = () => {
             src="./img/Banner 2.png"
             alt="active fm banner image"
           />
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           style={{width: "100%"}}
         >
           <img
@@ -59,7 +50,7 @@ export const BannerSlider = () => {
             src="./img/Banner 3.png"
             alt="active fm banner image"
           />
-        </div>
+        </div> */}
       </Carousel>
     </>
   );
