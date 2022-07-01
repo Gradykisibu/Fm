@@ -25,7 +25,7 @@ const MainWrapperLeftGrid = styled.div`
   overflow: auto;
   position: relative;
   padding: ${(smallScreen) =>
-    smallScreen ? "10px 10px 0 10px" : "10px 20px 0 20px"};
+    smallScreen ? "0px 0px 0 0px" : "0px 0px 0 0px"};
 `;
 
 const MainWrapperRightGrid = styled.div`

@@ -20,6 +20,7 @@ const ParallaxImage = styled.div`
   background-attachment: fixed;
   background-position: center;
   filter: brightness(30%);
+  background-size:contain;
 `;
 
 const AddBannerLink = styled.a`
@@ -46,7 +47,7 @@ const Home = () => {
 
       <SectionHeader theme={theme} txt = {"TALK SHOWS"}/>
        
-      <div className="shows-scrollable-row">
+      <div className="shows-scrollable-row" style={{paddingLeft:"10px"}}>
         {shows.talkShows.map((show, index) => (
           <ShowCard index={index} show={show} />
         ))}
@@ -67,9 +68,9 @@ const Home = () => {
         />
       </AddBannerLink>
 
-      <SectionHeader theme={theme} txt = {"MORNING SHOWS"}/>
+      <SectionHeader theme={theme} txt = {"MORNING SHOWS"} />
 
-      <div className="shows-scrollable-row">
+      <div className="shows-scrollable-row" style={{paddingLeft:"10px"}}>
         {shows.morningShows.map((show, index) => (
           <ShowCard index={index} show={show} />
         ))}
@@ -92,7 +93,7 @@ const Home = () => {
 
       <SectionHeader theme={theme} txt = {"AFTERNOON SHOWS"}/>
 
-      <div className="shows-scrollable-row">
+      <div className="shows-scrollable-row" style={{paddingLeft:"10px"}}>
         {shows.afternoonShows.map((show, index) => (
           <ShowCard index={index} show={show} />
         ))}
@@ -115,7 +116,7 @@ const Home = () => {
 
       <SectionHeader theme={theme} txt = {"EVENING SHOWS"}/>
 
-      <div className="shows-scrollable-row">
+      <div className="shows-scrollable-row" style={{paddingLeft:"10px"}}>
         {shows.eveningShows.map((show, index) => (
           <ShowCard index={index} show={show} />
         ))}
@@ -139,7 +140,7 @@ const Home = () => {
 
       <SectionHeader theme={theme} txt = {"MUSIC SHOWS"}/>
 
-      <div className="shows-scrollable-row">
+      <div className="shows-scrollable-row" style={{paddingLeft:"10px"}}>
         {shows.musicShows.map((show, index) => (
           <ShowCard index={index} show={show} />
         ))}
@@ -161,7 +162,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./img/de-mode-2.jpg"}
+        img={"/img/changingperspective.jpg"}
         top={"20%"}
         style={{
           right: "15%",
@@ -169,7 +170,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./img/the-political-show-2.jpg"}
+        img={"/img/inspiration.jpg"}
         top={"40%"}
         style={{
           left: "15%",
@@ -177,7 +178,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./img/its-a-moms-life-2.jpg"}
+        img={"./img/philosophic.jpg"}
         top={"60%"}
         style={{
           right: "15%",
@@ -185,7 +186,7 @@ const Home = () => {
       />
 
       <ParallaxImage
-        img={"./img/lets-talk-2.jpg"}
+        img={"./img/inspiration.jpg"}
         top={"80%"}
         style={{
           right: "25%",
