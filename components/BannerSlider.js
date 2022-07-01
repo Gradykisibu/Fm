@@ -3,8 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 
 export const BannerSlider = () => {
   return (
-    <>
-      <Carousel
+  
+    <div style={{width:'100%'}}>
+      {/* <Carousel
         axis="vertical"
         autoPlay={true}
         centerMode={true}
@@ -18,9 +19,9 @@ export const BannerSlider = () => {
         showArrows={false}
         showIndicators={false}
         stopOnHover={false}
-      >
+      > */}
 
-        <video width="100%" height="500px" muted autoPlay loop >
+        <video width="100%" height="100%" muted autoPlay loop>
               <source src="New AFM Website Banner (video-converter.com).mp4" type="video/mp4"/>
         </video>
         
@@ -51,8 +52,8 @@ export const BannerSlider = () => {
             alt="active fm banner image"
           />
         </div> */}
-      </Carousel>
-    </>
+      {/* </Carousel> */}
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ const SectionHeader = ({ theme, txt }) => {
           fontSize: 20,
           fontWeight: 700,
           color: (theme == "light") ? "#111" : "#fff",
-          margin: "25px 0 10px 0",
+          margin: "25px 0 10px 20px",
           cursor: "default",
         }}
       >
@@ -21,6 +21,7 @@ const SectionHeader = ({ theme, txt }) => {
           height: 2,
           width: 50,
           background: "#aa2329",
+          marginLeft:"20px"
         }}
       />
     </>
