@@ -7,6 +7,8 @@ import {
 } from "../styles/style-utils";
 import SectionHeader from "../components/SectionHeader";
 import { ThemeContext } from "../state/ThemeProvider";
+import Swiperdoc from "../components/Swiperdoc";
+
 
 const about = () => {
   const { theme } = useContext(ThemeContext);
@@ -24,7 +26,7 @@ const about = () => {
 
       <div className="row">
         <div className="col-md-12">
-          <video style={{
+          {/* <video style={{
               width: "100%",
               height: 350,
               minHeight: 400,
@@ -35,7 +37,8 @@ const about = () => {
             <source src="promo.mp4" type="video/mp4" />
             <source src="promo.ogg" type="video/ogg" />
           Your browser does not support the videotag. 
-          </video>
+          </video> */}
+          <Swiperdoc/>
         </div>
 
         <div className="col-sm-12">
