@@ -38,10 +38,25 @@ const about = () => {
             <source src="promo.ogg" type="video/ogg" />
           Your browser does not support the videotag. 
           </video> */}
-          <Swiperdoc/>
+          {/* <Swiperdoc/> */}
+          <div style={{width: "100%" ,marginBottom:"15px"}}>
+          <img src="./swiper/ActiveFMBrandDocument_page-0001.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0002.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0003.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0004.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0005.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0006.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0007.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0008.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0009.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0010.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0011.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          <img src="./swiper/ActiveFMBrandDocument_page-0012.jpg"  alt="active fm banner image" style={{width:"100%"}}/>
+          </div>  
+       
         </div>
 
-        <div className="col-sm-12">
+        {/* <div className="col-sm-12">
           <LineDivider />
 
           <div className="row">
@@ -130,7 +145,8 @@ const about = () => {
               </Paragraph>
             </div>
           </div>
-        </div>
+        </div> */}
+
       </div>
     </section>
   );
