@@ -149,7 +149,7 @@ const Home = () => {
       <SectionHeader theme={theme} txt = {"SCHEDULE"}/>
 
       <img
-        src={"./img/AFM_SCHEDULE.png"}
+        src={"./img/Schedule_AFM_New.png"}
         style={{
           width: "100%",
           height: 450,
