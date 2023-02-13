@@ -91,13 +91,6 @@
     "category": "morning-shows"
   },
   {
-    "name": "Philosophically Poetic",
-    "description": "Philosophically Poetic is a show that digs into the burning and deep questions philosophy asks. Noelzii takes a look into the philosophy behind some of the biggest issues, and questions, asked in the world like: Does God exist? Is marriage worth it? Is racism real? Are we really facing a global warming crisis? Can we actually know anything?",
-    "link": "https://iono.fm/c/5139",
-    "img": "Philosophically Poetic.JPG",
-    "category": "evening-shows"
-  },
-  {
     "name": "The Movie Show",
     "description": "Sound effects, acting, storyline, scriptwriting, directing, trailers, cinematography, colour grading and basically anything to do with cinemas and filmmaking - our movie presenters are there. Sash, Ryan and Timothy share hilarious movie facts, incredible behind the scene moments and so much more! Do they rate the movie as worth watching? Find out now!",
     "link": "https://iono.fm/c/2869",
@@ -130,20 +123,6 @@
     "description": "Kairos Moment is an Opportunity or Season of Spiritual inspiration in your life, that will ultimately lead you to making the right decisions and Choices in life.",
     "link": "https://iono.fm/c/7015",
     "img": "The Kairos Moment.JPG",
-    "category": "morning-shows"
-  },
-  {
-    "name": "Walk The Talk",
-    "description": "Welcome to Walk The Talk on Active FM.",
-    "link": "https://iono.fm/c/7016",
-    "img": "Walk The Talk.JPG",
-    "category": "talk-shows"
-  },
-  {
-    "name": "The Turn't Table",
-    "description": "HipHop has become the biggest genre in the world, but it is not just a genre of music, it is a CULTURE and is still somewhat an untapped market.",
-    "link": "https://iono.fm/c/7231",
-    "img": "The Turn't Table.JPG",
     "category": "morning-shows"
   }
 ]
