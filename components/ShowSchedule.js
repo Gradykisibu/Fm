@@ -13,7 +13,7 @@ width: 100%;
 background: #222;
 overflow: auto;
 display: flex;
-transform: translate(0; 0);
+transform: translate(0 0);
 position: relative;
 margin-bottom:50px
 `

@@ -32,13 +32,11 @@ const SocialMediaLinksGroup = ({darkTheme}) => {
                                     objectPosition:'center',
                                     filter: darkTheme ? 'invert(100%)' : 'invert(0)'
                                 }}
-                                alt ="spotify icon"
                                 /> 
                            </a>
 
                            <a href="https://podcasts.apple.com/za/podcast/we-are-live/id1478735597" target = "_blank">
                                 <img src = "./icons/podcast.png"
-                                  alt="spotify icon"
                                   style = {{
                                     width:20,
                                     height:20,
