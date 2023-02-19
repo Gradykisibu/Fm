@@ -45,7 +45,7 @@
     "name": "Decoding The Crimeverse",
     "description": "Go on a journey with Dani and Noelzii as they uncover and investigate the top serial killers / murderers in the world. They attempt to solve the mystery. Who was the actual killer? What did they look like? Why did they do what they did? What was the psychology behind it?",
     "link": "https://iono.fm/c/6067",
-    "img": "Decoding The Crimeverse.JPG",
+    "img": "Decoding The Crimeverse.jpg",
     "category": "talk-shows"
   },
   {
@@ -63,13 +63,6 @@
     "category": "music-shows"
   },
   {
-    "name": "What's The Topic???",
-    "description": "Will the next show be comical or a discussion about a serious human violation? We don’t know… Nash covers every and any topic on his show. His shows are definitely eye opening and are worth opening up some time in your schedule to listen to.",
-    "link": "https://iono.fm/c/2853",
-    "img": "What's The Topic.JPG",
-    "category": "morning-shows"
-  },
-  {
     "name": "It's A Mom's Life",
     "description": "Struggling to cope as a mom? Not sure if you are raising your children right? Wish you had more time to yourself? Dee and Thando talk about balancing everything as a mom and not just balancing your life but doing it well. Awaken the super mom inside of you!",
     "link": "https://iono.fm/c/6065",
@@ -80,7 +73,7 @@
     "name": "The Table of Perspective",
     "description": "People can experience the exact same thing, but because of the manner in which they view life and everything it entails, their perspectives and ultimately their responses can be very different. The presenters try to understand why / what influences the way people perceive and act on life in the way they do.",
     "link": "https://iono.fm/c/6729",
-    "img": "The Table of Perspective.JPG",
+    "img": "The Table Of Perspective.jpg",
     "category": "evening-shows"
   },
   {
@@ -96,13 +89,6 @@
     "link": "https://iono.fm/c/5463",
     "img": "The Shade!!.JPG",
     "category": "morning-shows"
-  },
-  {
-    "name": "Philosophically Poetic",
-    "description": "Philosophically Poetic is a show that digs into the burning and deep questions philosophy asks. Noelzii takes a look into the philosophy behind some of the biggest issues, and questions, asked in the world like: Does God exist? Is marriage worth it? Is racism real? Are we really facing a global warming crisis? Can we actually know anything?",
-    "link": "https://iono.fm/c/5139",
-    "img": "Philosophically Poetic.JPG",
-    "category": "evening-shows"
   },
   {
     "name": "The Void Show",
@@ -159,12 +145,5 @@
     "link": "https://iono.fm/c/7013",
     "img": "The Factory For Greatness.JPG",
     "category": "morning-shows"
-  },
-  {
-    "name": "Walk The Talk",
-    "description": "Welcome to Walk The Talk on Active FM.",
-    "link": "https://iono.fm/c/7016",
-    "img": "Walk The Talk.JPG",
-    "category": "talk-shows"
   }
 ]

@@ -149,7 +149,7 @@ const Home = () => {
       <SectionHeader theme={theme} txt = {"SCHEDULE"}/>
 
       <img
-        src={"./img/AFM_SCHEDULE.png"}
+        src={"./img/Teal and White Tropical.png"}
         style={{
           width: "100%",
           height: 450,
@@ -161,37 +161,37 @@ const Home = () => {
         alt="active fm schedule"
       />
 
-      <ParallaxImage
+      {/* <ParallaxImage
         img={"/img/changingperspective.jpg"}
         top={"20%"}
         style={{
           right: "15%",
         }}
-      />
+      /> */}
 
-      <ParallaxImage
+      {/* <ParallaxImage
         img={"/img/inspiration.jpg"}
         top={"40%"}
         style={{
           left: "15%",
         }}
-      />
+      /> */}
 
-      <ParallaxImage
+      {/* <ParallaxImage
         img={"./img/philosophic.jpg"}
         top={"60%"}
         style={{
           right: "15%",
         }}
-      />
+      /> */}
 
-      <ParallaxImage
+      {/* <ParallaxImage
         img={"./img/inspiration.jpg"}
         top={"80%"}
         style={{
           right: "25%",
         }}
-      />
+      /> */}
     </>
   );
 };
